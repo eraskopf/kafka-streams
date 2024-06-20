@@ -1,0 +1,7 @@
+kafka:
+  inputTopicPriceItem: topico_sync_salesforce_preco_sazonal
+  outputTopicPriceItem: processed-pricelist-topic
+  inputTopicPricingIndexItem: topico_sync_salesforce_indice_preco
+  outputTopicPricingIndexItem: processed-pricing-index-item-topic
+  inputTopicAdFormat: sfdc-format-topic
+  outputTopicAdFormat: processed-ad-format-topic
